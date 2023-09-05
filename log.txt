@@ -1,0 +1,83 @@
+2023-09-01 20:14:19.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - -
+2023-09-01 20:14:19.638 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - - - 200 - text/html;charset=utf-8 421.0453ms
+2023-09-01 20:14:19.699 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - -
+2023-09-01 20:14:19.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - -
+2023-09-01 20:14:19.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 16.7637ms
+2023-09-01 20:14:19.750 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3380ms
+2023-09-01 20:14:20.007 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - -
+2023-09-01 20:14:20.165 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.5031ms
+2023-09-01 20:14:24.098 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/1 - -
+2023-09-01 20:14:24.145 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:24.450 +03:00 [INF] User found with ID: 1
+User Name is: Ahmed
+2023-09-01 20:14:24.463 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-01 20:14:24.472 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:24.478 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/1 - - - 200 - text/plain;+charset=utf-8 380.3076ms
+2023-09-01 20:14:29.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/2 - -
+2023-09-01 20:14:29.093 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:29.102 +03:00 [INF] User found with ID: 2
+User Name is: Hassan
+2023-09-01 20:14:29.110 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-01 20:14:29.118 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:29.125 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/2 - - - 200 - text/plain;+charset=utf-8 40.5481ms
+2023-09-01 20:14:34.941 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/3 - -
+2023-09-01 20:14:34.948 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:34.955 +03:00 [INF] User found with ID: 3
+User Name is: Hossam
+2023-09-01 20:14:34.961 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-01 20:14:34.967 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:34.974 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/3 - - - 200 - text/plain;+charset=utf-8 32.4978ms
+2023-09-01 20:14:37.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/4 - -
+2023-09-01 20:14:37.107 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:37.113 +03:00 [INF] User found with ID: 4
+User Name is: Kareem
+2023-09-01 20:14:37.118 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-01 20:14:37.124 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:14:37.131 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/4 - - - 200 - text/plain;+charset=utf-8 30.1418ms
+2023-09-01 20:15:04.716 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/5 - -
+2023-09-01 20:15:04.723 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:04.730 +03:00 [INF] User found with ID: 5
+User Name is: Makkah
+2023-09-01 20:15:04.737 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-01 20:15:04.744 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:04.754 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/5 - - - 200 - text/plain;+charset=utf-8 38.1105ms
+2023-09-01 20:15:07.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/10 - -
+2023-09-01 20:15:07.702 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:07.708 +03:00 [WRN] No User was found with such ID: 10
+2023-09-01 20:15:07.714 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-09-01 20:15:07.720 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:07.727 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/10 - - - 404 - text/plain;+charset=utf-8 31.6407ms
+2023-09-01 20:15:11.704 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/98 - -
+2023-09-01 20:15:11.713 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:11.721 +03:00 [WRN] No User was found with such ID: 98
+2023-09-01 20:15:11.725 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-09-01 20:15:11.731 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (Testing)'
+2023-09-01 20:15:11.739 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/98 - - - 404 - text/plain;+charset=utf-8 35.2937ms
+2023-09-01 20:17:42.021 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - -
+2023-09-01 20:17:42.406 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - - - 200 - text/html;charset=utf-8 394.0229ms
+2023-09-01 20:17:42.559 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - -
+2023-09-01 20:17:42.571 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 11.7928ms
+2023-09-01 20:17:42.590 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - -
+2023-09-01 20:17:42.646 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.2732ms
+2023-09-01 20:17:42.829 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - -
+2023-09-01 20:17:42.979 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.6917ms
+2023-09-01 20:17:56.080 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/404 - -
+2023-09-01 20:17:56.122 +03:00 [INF] Executing endpoint 'Testing.Controllers.UserController.GetUserById (ELK)'
+2023-09-01 20:17:56.182 +03:00 [WRN] No User was found with such ID: 404
+2023-09-01 20:17:56.196 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-09-01 20:17:56.212 +03:00 [INF] Executed endpoint 'Testing.Controllers.UserController.GetUserById (ELK)'
+2023-09-01 20:17:56.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/404 - - - 404 - text/plain;+charset=utf-8 138.4384ms
+2023-09-01 20:21:10.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - -
+2023-09-01 20:21:10.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - - - 200 - text/html;charset=utf-8 407.8233ms
+2023-09-01 20:21:12.367 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - -
+2023-09-01 20:21:12.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - -
+2023-09-01 20:21:12.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 21.8838ms
+2023-09-01 20:21:12.481 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.3465ms
+2023-09-01 20:21:12.572 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - -
+2023-09-01 20:21:12.756 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.9267ms
+2023-09-01 20:21:21.546 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/User/403 - -
+2023-09-01 20:21:21.590 +03:00 [INF] Executing endpoint 'ELK.Controllers.UserController.GetUserById (ELK)'
+2023-09-01 20:21:21.653 +03:00 [WRN] No User was found with such ID: 403
+2023-09-01 20:21:21.664 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-09-01 20:21:21.674 +03:00 [INF] Executed endpoint 'ELK.Controllers.UserController.GetUserById (ELK)'
+2023-09-01 20:21:21.679 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/User/403 - - - 404 - text/plain;+charset=utf-8 132.8486ms
